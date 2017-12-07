@@ -9,7 +9,8 @@
  */
 
 // Your code :
-
+const getLength = nom => nom.length
+console.log(getLength('Bienvenue'))
 //* Begin of tests
 const assert = require('assert')
 

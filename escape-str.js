@@ -9,7 +9,8 @@
  */
 
 // Your code :
-
+const escapeStr = 'Je suis l\'unique`"/\\'
+console.log(escapeStr)
 //* Begin of tests
 const assert = require('assert')
 

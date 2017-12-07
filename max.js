@@ -11,7 +11,12 @@
  */
 
 // Your code :
-
+const max = (nbre1, nbre2) => nbre1 > nbre2 ? nbre1 : nbre2
+console.log(max(0,-2))
+console.log(max(-1,10))
+console.log(max(-13.2,-222))
+console.log(max(132,133))
+console.log(max.length)
 //* Begin of tests
 const assert = require('assert')
 

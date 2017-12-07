@@ -9,6 +9,9 @@
  */
 
 // Your code :
+const getFirst = nom => nom[nom.length - nom.length]
+console.log('La première lettre de la chaine de caractère de la phrase est : ')
+console.log(getFirst('Dieu'))
 
 //* Begin of tests
 const assert = require('assert')

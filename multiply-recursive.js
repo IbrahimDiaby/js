@@ -11,7 +11,11 @@
  */
 
 // Your code :
-
+const multiply = count => {
+    if(i < count){
+        return 
+    }
+}
 //* Begin of tests
 const assert = require('assert')
 

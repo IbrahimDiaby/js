@@ -10,6 +10,14 @@
 
 // Your code :
 
+const circular = {
+
+}
+
+circular.circular = circular
+
+console.log(circular[circular])
+
 //* Begin of tests
 const assert = require('assert')
 

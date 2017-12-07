@@ -14,9 +14,18 @@ const sourceObject = {
   bool: true,
   str: 'some text',
   log: console.log,
+  noexist: undefined,
 }
 
 // Your code :
+
+const get = key => sourceObject[key]
+
+console.log(get('num'))
+console.log(get('bool'))
+console.log(get('str'))
+console.log(get('log'))
+console.log(get('noexist'))
 
 //* Begin of tests
 const assert = require('assert')

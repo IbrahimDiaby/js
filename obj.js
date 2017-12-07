@@ -6,7 +6,20 @@
  *
  * @notions Functions, Operators
  * @next circular
- */
+ */ 
+ const obj = {
+     str: '1337',
+     num: 42,
+     bool: false,
+     undef: undefined,
+
+ }
+ 
+ console.log(obj['str'])
+ console.log(obj['num'])
+ console.log(obj['bool'])
+ console.log(obj['undef'])
+
 
 // Your code :
 

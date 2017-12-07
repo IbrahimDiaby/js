@@ -10,6 +10,10 @@
 
 // Your code :
 
+const getLast = Voeux => Voeux[Voeux.length - 1]
+console.log('La derniere lettre de la chaine de caractère de la phrase est : ')
+console.log(getLast('Dieu'))
+
 //* Begin of tests
 const assert = require('assert')
 

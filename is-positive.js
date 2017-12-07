@@ -7,8 +7,9 @@
  * @next sign
  */
 
+//your code
 
-
+const isPositive = nombre => nombre > 0 ? true : false 
 //* Begin of tests
 const assert = require('assert')
 

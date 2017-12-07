@@ -9,6 +9,11 @@
 
 // Your code :
 
+const sub = (n1, n2) => n1 - n2
+
+console.log(sub(2, 2))
+console.log(sub(-2 , 2))
+console.log(sub.length)
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

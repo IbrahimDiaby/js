@@ -12,6 +12,14 @@
 
 // Your code :
 
+const abs = (number1) => number1 >= 0 ? number1 : -number1
+
+console.log(abs.length)
+console.log(abs(0))
+console.log(abs(-1))
+console.log(abs(-13.2))
+console.log(abs(132))
+
 //* Begin of tests
 const assert = require('assert')
 

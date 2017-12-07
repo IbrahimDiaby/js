@@ -8,7 +8,10 @@
  */
 
 // Your code :
-
+const rand1 = 2
+const rand2 = 2 
+const add = (rand1, rand2) => rand1 + rand2
+console.log(add(2, 2))
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

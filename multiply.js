@@ -11,6 +11,27 @@
 
 // Your code :
 
+const multiply = (a, b) => {
+    let resultat = 0
+    let count = 0
+
+    while(count < Math.abs(b)){
+        resultat = resultat + Math.abs(a)
+        count = count+1
+    }
+
+    resultat = Math.sign(a) === Math.sign(b) ? resultat : -resultat
+    return resultat
+ }
+console.log(multiply.length)
+console.log(multiply(34, 78))
+console.log(multiply(123, 0))
+console.log(multiply(0, -230))
+console.log(multiply(0, 0))
+console.log(multiply(123, -22))
+console.log(multiply(-22, 123))
+console.log(multiply(-22, -123))
+
 //* Begin of tests
 const assert = require('assert')
 

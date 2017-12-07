@@ -12,6 +12,24 @@
  */
 
 // Your code :
+const sign = number => {
+    if(number > 0) {
+        return 1
+    }
+
+    else if(number === 0) {
+        return 0
+    }
+
+    else{
+        return -1
+    }
+}
+console.log(sign(-2))
+console.log(sign(10))
+console.log(sign(0))
+console.log(sign(132))
+console.log(sign.length)
 
 //* Begin of tests
 const assert = require('assert')
