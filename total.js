@@ -6,8 +6,19 @@
  *
  * @next multiply
  */
+const total = array => {
+    let count = 0
+    let number = array.length
+    let result = 0
+    for(count = 0; count < number; count++){
+        result = result + array[count]
+    }
+    return result
 
-
+}
+console.log(total([1, 1, 1]));
+console.log(total([10, 10, 10]));
+console.log(total([24, -10, 10, 0, 0 , 100]));
 //* Begin of tests
 const assert = require('assert')
 
