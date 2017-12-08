@@ -11,11 +11,10 @@
  */
 
 // Your code :
-const multiply = count => {
-    if(i < count){
-        return 
-    }
-}
+
+
+const multiply = (a, b) => (Math.abs(b) > 0 ? Math.abs(a) + mutliply(Math.abs(a), (Math.abs(b) - 1)) : 0)
+
 //* Begin of tests
 const assert = require('assert')
 

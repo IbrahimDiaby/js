@@ -7,7 +7,8 @@
  * @next sub
  */
 
-// Your code :
+// Your code
+
 const rand1 = 2
 const rand2 = 2 
 const add = (rand1, rand2) => rand1 + rand2

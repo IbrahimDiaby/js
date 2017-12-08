@@ -7,6 +7,24 @@
  * @next total
  */
 
+// your code
+const words = string => {
+
+    let number = words.length
+    let letter = ' '
+    let count = 0
+    let charsletter = ''
+    
+    while (count < number){
+        letter = words[Math.abs(count - words.length)]
+        charsletter = charsletter + letter
+        count++
+        return [charsletter]
+    }
+    
+}
+
+console.log(words('a b c'))
 
 //* Begin of tests
 const assert = require('assert')
@@ -18,3 +36,29 @@ assert.deepStrictEqual(words('a 1 c'), [ 'a', '1', 'c' ])
 assert.deepStrictEqual(words('a 1 c d e f'), [ 'a', '1', 'c', 'd', 'e', 'f' ])
 assert.deepStrictEqual(words('wol.lol lo,lol'), [ 'wol.lol', 'lo,lol'])
 // End of tests */
+// const repeat = (noun, number) => {
+//     let count = 0
+//     let concat = noun
+//     let concatT = ''
+//     concatT = concat + concatT
+    
+//     while((count + 1) < number)
+//     {
+//       if(count < number){
+//         concat = concat + concatT
+//         count++
+//       }
+//     }
+    
+//     if((count === 0) && (number === 0)){
+//           concat = ''
+//        }
+//     return concat
+//   }
+
+//   console.log(repeat.length)
+//   console.log(repeat('a', 3))
+//   console.log(repeat('ba', 10))
+//   console.log(repeat('pouet', 2))
+//   console.log(repeat('haha', 1))
+//   console.log(repeat('hehehe', 0))
