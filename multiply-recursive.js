@@ -12,8 +12,21 @@
 
 // Your code :
 
+let resultat = 0
+let count1 = 0
+let count2 = 0
 
-const multiply = (a, b) => (Math.abs(b) > 0 ? Math.abs(a) + mutliply(Math.abs(a), (Math.abs(b) - 1)) : 0)
+const multiply = (countA, countB) => 
+  (Math.abs(countB) - 1) > 0
+  ?
+  resultat = Math.abs(countA) + multiply(Math.abs(countA), Math.abs(countB))
+  :
+  resultat = 0
+  
+  return resultat
+
+
+console.log(multiply(34, 78))
 
 //* Begin of tests
 const assert = require('assert')
