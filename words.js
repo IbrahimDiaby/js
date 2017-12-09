@@ -8,21 +8,25 @@
  */
 
 // your code
-const words = string => {
+// const words = string => {
+    const words = string =>{ 
+        const result =  string.split(' ')
 
-    let number = words.length
-    let letter = ' '
-    let count = 0
-    let charsletter = ''
-    
-    while (count < number){
-        letter = words[Math.abs(count - words.length)]
-        charsletter = charsletter + letter
-        count++
-        return [charsletter]
-    }
-    
+        return result
 }
+    // let number = words.length
+    // let letter = ' '
+    // let count = 0
+    // let charsletter = ''
+    
+    // while (count < number){
+    //     letter = words[Math.abs(count - words.length)]
+    //     charsletter = charsletter + letter
+    //     count++
+    //     return [charsletter]
+    // }
+    
+//}
 
 console.log(words('a b c'))
 
