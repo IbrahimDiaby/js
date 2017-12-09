@@ -23,17 +23,6 @@ const multiply = (a, b) => {
      return -multiply(a, -b)
   }
 }
-// let resultat = 0
-// let count1 = 0
-// let count2 = 0
-
-// const multiply = (countA, countB) => 
-//   (Math.abs(countB) - 1) > 0
-//   ?
-//   resultat = Math.abs(countA) + resultat + multiply(Math.abs(countA), Math.abs(countB)) 
-//   :
-//   resultat = 0
-  
 //   return resultat
 
 console.log(multiply.length)
