@@ -9,6 +9,14 @@
  * @next total
  */
 
+// your code
+
+const jadenCase =  string => {
+  
+}
+
 
 // You must write your own tests
-throw Error('No tests !')
+// throw Error('No tests !')
+
+

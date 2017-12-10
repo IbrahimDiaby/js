@@ -13,5 +13,19 @@
  * @next capitalize
  */
 
+// your code
+
+const keppFirst = string => {
+  
+}
+
 // You must write your own tests
+
+const assert = require('assert')
+
+assert.strictEqual(typeof keepFirst, 'function')
+assert.strictEqual(keepFirst.length, 2)
+assert.strictEqual(keepFirst(2, 2), 4)
+assert.strictEqual(keepFirst(rand, rand), rand + rand)
+
 throw Error('No tests !')
