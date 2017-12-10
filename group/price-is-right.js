@@ -59,4 +59,26 @@ const getCostMl = condition => {
 console.log(getCostMl(7500))
 
 // You must write your own tests
-throw Error('No tests !')
+//throw Error('No tests !')
+
+const assert = require('assert')
+
+assert.strictEqual(typeof getCostCount, 'function')
+assert.strictEqual(getCostCount.length, 1)
+assert.strictEqual(getCostCount(1), 650)
+assert.strictEqual(getCostCount(2), 1300)
+assert.strictEqual(getCostCount(3), 1500)
+assert.strictEqual(getCostCount(4), 2150)
+assert.strictEqual(getCostCount(5), 2800)
+assert.strictEqual(getCostCount(6), 3000)
+
+
+assert.strictEqual(typeof getCostMl, 'function')
+assert.strictEqual(getCostMl.length, 1)
+assert.strictEqual(getCostMl(500), 650)
+assert.strictEqual(getCostMl(1000), 1300)
+assert.strictEqual(getCostMl(1500), 1500)
+assert.strictEqual(getCostMl(2000), 2150)
+assert.strictEqual(getCostMl(2500), 2800)
+assert.strictEqual(getCostMl(3000), 3000)
+// End of tests */

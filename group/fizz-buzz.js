@@ -40,7 +40,7 @@ const fizzBuzz = number => {
      else{
         result = console.log(count)
      }
-     //return result + result
+     
   }
   return result
 }
@@ -48,4 +48,16 @@ const fizzBuzz = number => {
 fizzBuzz(1)
 
 // You must write your own tests
-throw Error('No tests !')
+
+//throw Error('No tests !')
+
+const assert = require('assert')
+
+assert.strictEqual(typeof fizzBuzz, 'function')
+assert.strictEqual(fizzBuzz.length, 1)
+assert.strictEqual(fizzBuzz(1), 1)
+assert.strictEqual(fizzBuzz(2), 2)
+assert.strictEqual(fizzBuzz(3), 'Fizz')
+assert.strictEqual(fizzBuzz(4), 4)
+assert.strictEqual(fizzBuzz(5), 'Buzz')
+assert.strictEqual(fizzBuzz(15), 'FizzBuzz')
