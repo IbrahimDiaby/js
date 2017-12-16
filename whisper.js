@@ -7,5 +7,10 @@
  * @next yell
  */
 
+ const whisper = strings => {
+    console.log(strings.toLowerCase(strings));
+ }
+
+ whisper('JE SERAI TOUJOURS LA POUR TOI. PROMIS JURÉ');
 // You must write your own tests
-throw Error('No tests !')
+//throw Error('No tests !')

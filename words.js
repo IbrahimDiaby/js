@@ -9,7 +9,7 @@
 
 // your code
 // const words = string => {
-    const words = string =>{ 
+    const words = string => { 
         const result =  string.split(' ')
 
         return result

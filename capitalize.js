@@ -10,8 +10,8 @@
 // your code
 const capitalize = string => string.toUpperCase(string)
 
-console.log(capitalize('Je vais bien'))
-console.log(capitalize('futur programmeur de première classe'))
+console.log(capitalize('Je vais bien'));
+console.log(capitalize('futur programmeur de première classe'));
 
 // You must write your own tests
 // throw Error('No tests !')
